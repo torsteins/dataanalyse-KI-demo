@@ -1,0 +1,12 @@
+OUTPUT OF analysis.py ON REAL DATA
+----------------------------------
+
+Total patients: 600
+Excluded (dropped out, missing weight_12m_kg): 49
+Completed - standard track: n=354, mean weight loss=1.70 kg, sd=2.98 kg
+Completed - intensive track: n=197, mean weight loss=6.69 kg, sd=2.96 kg
+
+Welch's t-test (intensive vs. standard weight loss):
+  t = 18.911
+  p = 1.111e-57
+  -> Statistically significant difference at alpha=0.05.

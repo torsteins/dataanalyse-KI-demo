@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "deny": [
+      "Read(./sensitive_area/**)",
+      "Edit(./sensitive_area/**)",
+      "Write(./sensitive_area/**)",
+      "Bash(*sensitive_area*)"
+    ]
+  },
+  "sandbox": {
+    "enabled": true,
+    "filesystem": {
+      "denyRead": ["./sensitive_area/**"],
+      "denyWrite": ["./sensitive_area/**"]
+    }
+  }
+}
+

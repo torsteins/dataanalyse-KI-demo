@@ -1,0 +1,6 @@
+# Real sensitive data must never be committed
+/sensitive_area/
+
+
+# Ingore MacOS system files
+*.DS_Store
